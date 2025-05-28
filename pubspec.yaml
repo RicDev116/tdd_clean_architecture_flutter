@@ -1,0 +1,36 @@
+name: dtt_clean_architecture
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  #service locator
+  get_it: ^8.0.3
+  #state management
+  flutter_bloc: ^9.1.1
+  #value equality
+  equatable: ^2.0.7
+  #functional programming thingies
+  dartz: ^0.10.1
+  #remote api
+  connectivity_plus: ^6.1.4
+  http: ^1.4.0
+  #local cache
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.6
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
