@@ -5,5 +5,4 @@ import 'package:dtt_clean_architecture/features/number_trivia/domain/entities/nu
 abstract class NumberTriviaRepository {
   Future<Either<Failure, NumberTrivia>> getConcreteNumberTrivia(int number);
   Future<Either<Failure, NumberTrivia>> getRandomNumberTrivia();
-  getAllNumberTrivia();
 }

@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
-import 'package:mockito/mockito.dart' show Mock, when, verify, verifyNoMoreInteractions, any;
+import 'package:mockito/mockito.dart' show when, verify, verifyNoMoreInteractions, any;
 
 import 'package:dtt_clean_architecture/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:dtt_clean_architecture/features/number_trivia/domain/repositories/number_trivia_repository.dart';
