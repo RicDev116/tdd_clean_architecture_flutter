@@ -3,7 +3,6 @@ import 'package:dtt_clean_architecture/core/error/failure.dart';
 import 'package:dtt_clean_architecture/core/usescases/usecase.dart';
 import 'package:dtt_clean_architecture/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:dtt_clean_architecture/features/number_trivia/domain/repositories/number_trivia_repository.dart';
-import 'package:equatable/equatable.dart';
 
 class GetRandomNumberTrivia implements UseCase<NumberTrivia,NoParams>{
 
