@@ -4,7 +4,7 @@ import 'package:dartz/dartz.dart';
 import 'package:dtt_clean_architecture/core/error/exceptions.dart';
 
 import 'package:dtt_clean_architecture/core/error/failure.dart';
-import 'package:dtt_clean_architecture/core/platform/network_info.dart';
+import 'package:dtt_clean_architecture/core/network/network_info.dart';
 import 'package:dtt_clean_architecture/features/number_trivia/data/datasources/number_trivia_local_datasource.dart';
 import 'package:dtt_clean_architecture/features/number_trivia/data/datasources/number_trivia_remote_datasource.dart';
 import 'package:dtt_clean_architecture/features/number_trivia/data/models/number_trivia_model.dart';

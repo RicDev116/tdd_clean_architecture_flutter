@@ -47,23 +47,15 @@ class MockNumberTriviaRepository extends _i1.Mock
   }
 
   @override
-  _i4.Future<_i2.Either<_i5.Failure, _i6.NumberTrivia>> getConcreteNumberTrivia(
-          int? number) =>
-      (super.noSuchMethod(
-        Invocation.method(
-          #getConcreteNumberTrivia,
-          [number],
-        ),
-        returnValue:
-            _i4.Future<_i2.Either<_i5.Failure, _i6.NumberTrivia>>.value(
-                _FakeEither_0<_i5.Failure, _i6.NumberTrivia>(
-          this,
-          Invocation.method(
-            #getConcreteNumberTrivia,
-            [number],
-          ),
-        )),
-      ) as _i4.Future<_i2.Either<_i5.Failure, _i6.NumberTrivia>>);
+  _i4.Future<_i2.Either<_i5.Failure, _i6.NumberTrivia>?>
+      getConcreteNumberTrivia(int? number) => (super.noSuchMethod(
+            Invocation.method(
+              #getConcreteNumberTrivia,
+              [number],
+            ),
+            returnValue:
+                _i4.Future<_i2.Either<_i5.Failure, _i6.NumberTrivia>?>.value(),
+          ) as _i4.Future<_i2.Either<_i5.Failure, _i6.NumberTrivia>?>);
 
   @override
   _i4.Future<_i2.Either<_i5.Failure, _i6.NumberTrivia>>

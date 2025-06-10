@@ -20,7 +20,7 @@ dependencies:
   #functional programming thingies
   dartz: ^0.10.1
   #remote api
-  connectivity_plus: ^6.1.4
+  internet_connection_checker: ^3.0.1
   http: ^1.4.0
   #local cache
   shared_preferences: ^2.5.3
