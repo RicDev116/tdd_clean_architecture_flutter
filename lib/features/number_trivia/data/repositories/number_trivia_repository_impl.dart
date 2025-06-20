@@ -1,5 +1,3 @@
-import 'dart:isolate';
-
 import 'package:dartz/dartz.dart';
 import 'package:dtt_clean_architecture/core/error/exceptions.dart';
 
@@ -28,7 +26,7 @@ class NumberTriviaRepositoryImpl implements NumberTriviaRepository {
   });
 
   @override
-  Future<Either<Failure, NumberTrivia>?> getConcreteNumberTrivia(int number)async {
+  Future<Either<Failure, NumberTrivia>> getConcreteNumberTrivia(int number)async {
     return await _getTrivia(
       ()  =>  remoteDataSource.getConcreteNumberTrivia(number),
     );

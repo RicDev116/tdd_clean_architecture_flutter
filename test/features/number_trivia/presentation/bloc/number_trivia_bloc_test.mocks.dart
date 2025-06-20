@@ -74,7 +74,7 @@ class MockGetConcreteNumberTrivia extends _i1.Mock
       ) as _i2.NumberTriviaRepository);
 
   @override
-  _i5.Future<_i3.Either<_i6.Failure, _i7.NumberTrivia>?> call(
+  _i5.Future<_i3.Either<_i6.Failure, _i7.NumberTrivia>> call(
           _i4.Params? params) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -82,8 +82,15 @@ class MockGetConcreteNumberTrivia extends _i1.Mock
           [params],
         ),
         returnValue:
-            _i5.Future<_i3.Either<_i6.Failure, _i7.NumberTrivia>?>.value(),
-      ) as _i5.Future<_i3.Either<_i6.Failure, _i7.NumberTrivia>?>);
+            _i5.Future<_i3.Either<_i6.Failure, _i7.NumberTrivia>>.value(
+                _FakeEither_1<_i6.Failure, _i7.NumberTrivia>(
+          this,
+          Invocation.method(
+            #call,
+            [params],
+          ),
+        )),
+      ) as _i5.Future<_i3.Either<_i6.Failure, _i7.NumberTrivia>>);
 }
 
 /// A class which mocks [GetRandomNumberTrivia].
